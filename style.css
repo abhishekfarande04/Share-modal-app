@@ -1,0 +1,84 @@
+* {
+    margin: 0 ;
+    padding: 0;
+}
+body {
+    background-color: #000;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+#card-wrapper {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    border: 2px solid #ffffff30;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 450px;
+    width: 370px;
+    color: #ffffff;
+    padding: 20px;
+    border: 2px solid #ffffff30;
+    border-radius: 15px;
+
+}
+img {
+    border: 2px solid #ffffff30;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+h3 {
+    color: #ffffff85;
+    text-align: center;
+}
+.btn-share {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 12px;
+    background: #ffffff00;
+    border: 2px solid #ffffffb9;
+    text-transform: capitalize;
+    border-radius: 4px;
+    color: #ffffffb9;
+    cursor: pointer;
+}
+.btn-follow {
+    text-transform: capitalize;
+    width: 150px;
+    padding: 9px 12px;
+    background: #ffffff00;
+    border: 2px solid #ffffffb9;
+    border-radius: 4px; 
+    color: #ffffffb9;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#bottom-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.btn-card:hover {
+    background: #ffffffb9;
+    color: #131313;
+}
+
+/* lets make circle1 */
+#circle1 {
+    position: fixed;
+    background: linear-gradient(-25deg, #d84869, #f46641);
+}

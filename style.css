@@ -79,6 +79,33 @@ h3 {
 
 /* lets make circle1 */
 #circle1 {
-    position: fixed;
-    background: linear-gradient(-25deg, #d84869, #f46641);
+    position:fixed;
+    top: 5%;
+    left: 30%;
+    width: 13em;
+    height: 13em;
+    box-shadow: 0 0 50px #d84869;
+    border-radius: 50%; /* this is imp code which makes the circle ,a circle  */
+    background: linear-gradient(-25deg,#d84869,#f46641);
+    animation: circle1Animate 15s infinite;
+}
+
+@keyframes circle1Animate {
+    50% {
+        top: 4%;
+        left: 33%;
+        scale: 1.1;
+    }
+    
+}
+#circle2 {
+    position:absolute;
+    bottom: 5%;
+    right: 30%;
+    width: 19em;
+    height: 19em;
+    box-shadow: 0 0 50px #5648d8;
+    border-radius: 50%; /* this is imp code which makes the circle ,a circle  */
+    background: linear-gradient(-25deg,#5648d8,#8641f4);
+    animation: circle1Animate 15s infinite;
 }

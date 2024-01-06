@@ -107,5 +107,73 @@ h3 {
     box-shadow: 0 0 50px #5648d8;
     border-radius: 50%; /* this is imp code which makes the circle ,a circle  */
     background: linear-gradient(-25deg,#5648d8,#8641f4);
-    animation: circle1Animate 15s infinite;
+    animation: circle2animate 8s infinite;
 }
+
+@keyframes circle2animate {
+    50% {
+        bottom: 6%;
+        right: 33%;
+    }
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border: 2px solid #ffffff59;
+    border-radius: 20px;
+    color: white;
+    z-index: 1;
+    width: 500px;
+    padding: 20px 25px;
+}
+.header {
+    display: flex;
+    margin-bottom: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+.bottom-line {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+#sharethis {
+    display: flex;
+    justify-content: center;
+}
+#share-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icon {
+    border-radius: 50%;
+    border: 1px solid #ffffff88;
+    padding: 15px;
+    margin: 10px 0px;
+    gap: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    text-decoration: none;
+
+
+}
+
+.header i {
+    font-size: 30px;
+    cursor: pointer;
+}
+.icon i {
+    font-size: 27px;
+}
+
